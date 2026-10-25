@@ -1,0 +1,17 @@
+{
+  "name": "litefx-structured-buffer-repro",
+  "version-string": "0.1.0",
+  "builtin-baseline": "9e593bb18ea69cc5095e012465dcd675a822ed0d",
+  "dependencies": [
+    "directxmath",
+    "directx-headers",
+    "directx12-agility",
+    "directx-dxc",
+    "d3d12-memory-allocator",
+    {
+      "name": "spdlog",
+      "default-features": false,
+      "features": [ "tz-offset" ]
+    }
+  ]
+}
